@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0C711D2BCE709B00CBBBEC /* fireworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C711C2BCE709B00CBBBEC /* fireworkApp.swift */; };
+		EF0C711F2BCE709B00CBBBEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C711E2BCE709B00CBBBEC /* ContentView.swift */; };
+		EF0C71212BCE709C00CBBBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0C71202BCE709C00CBBBEC /* Assets.xcassets */; };
+		EF0C71242BCE709C00CBBBEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0C71232BCE709C00CBBBEC /* Preview Assets.xcassets */; };
+		EF0C712E2BCE709C00CBBBEC /* fireworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C712D2BCE709C00CBBBEC /* fireworkTests.swift */; };
+		EF0C71382BCE709C00CBBBEC /* fireworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C71372BCE709C00CBBBEC /* fireworkUITests.swift */; };
+		EF0C713A2BCE709C00CBBBEC /* fireworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C71392BCE709C00CBBBEC /* fireworkUITestsLaunchTests.swift */; };
+		EF0C71482BCE729900CBBBEC /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C71472BCE729900CBBBEC /* Firework.swift */; };
+		EF0C714A2BCE72AF00CBBBEC /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C71492BCE72AF00CBBBEC /* Particle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF0C712A2BCE709C00CBBBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0C71112BCE709A00CBBBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0C71182BCE709A00CBBBEC;
+			remoteInfo = firework;
+		};
+		EF0C71342BCE709C00CBBBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0C71112BCE709A00CBBBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0C71182BCE709A00CBBBEC;
+			remoteInfo = firework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0C71192BCE709A00CBBBEC /* firework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0C711C2BCE709B00CBBBEC /* fireworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireworkApp.swift; sourceTree = "<group>"; };
+		EF0C711E2BCE709B00CBBBEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF0C71202BCE709C00CBBBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0C71232BCE709C00CBBBEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF0C71292BCE709C00CBBBEC /* fireworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fireworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0C712D2BCE709C00CBBBEC /* fireworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireworkTests.swift; sourceTree = "<group>"; };
+		EF0C71332BCE709C00CBBBEC /* fireworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fireworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0C71372BCE709C00CBBBEC /* fireworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireworkUITests.swift; sourceTree = "<group>"; };
+		EF0C71392BCE709C00CBBBEC /* fireworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF0C71472BCE729900CBBBEC /* Firework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		EF0C71492BCE72AF00CBBBEC /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0C71162BCE709A00CBBBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C71262BCE709C00CBBBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C71302BCE709C00CBBBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0C71102BCE709A00CBBBEC = {
+			isa = PBXGroup;
+			children = (
+				EF0C711B2BCE709A00CBBBEC /* firework */,
+				EF0C712C2BCE709C00CBBBEC /* fireworkTests */,
+				EF0C71362BCE709C00CBBBEC /* fireworkUITests */,
+				EF0C711A2BCE709A00CBBBEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0C711A2BCE709A00CBBBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C71192BCE709A00CBBBEC /* firework.app */,
+				EF0C71292BCE709C00CBBBEC /* fireworkTests.xctest */,
+				EF0C71332BCE709C00CBBBEC /* fireworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0C711B2BCE709A00CBBBEC /* firework */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C71462BCE728E00CBBBEC /* struct */,
+				EF0C711C2BCE709B00CBBBEC /* fireworkApp.swift */,
+				EF0C711E2BCE709B00CBBBEC /* ContentView.swift */,
+				EF0C71202BCE709C00CBBBEC /* Assets.xcassets */,
+				EF0C71222BCE709C00CBBBEC /* Preview Content */,
+			);
+			path = firework;
+			sourceTree = "<group>";
+		};
+		EF0C71222BCE709C00CBBBEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C71232BCE709C00CBBBEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF0C712C2BCE709C00CBBBEC /* fireworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C712D2BCE709C00CBBBEC /* fireworkTests.swift */,
+			);
+			path = fireworkTests;
+			sourceTree = "<group>";
+		};
+		EF0C71362BCE709C00CBBBEC /* fireworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C71372BCE709C00CBBBEC /* fireworkUITests.swift */,
+				EF0C71392BCE709C00CBBBEC /* fireworkUITestsLaunchTests.swift */,
+			);
+			path = fireworkUITests;
+			sourceTree = "<group>";
+		};
+		EF0C71462BCE728E00CBBBEC /* struct */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C71472BCE729900CBBBEC /* Firework.swift */,
+				EF0C71492BCE72AF00CBBBEC /* Particle.swift */,
+			);
+			path = struct;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0C71182BCE709A00CBBBEC /* firework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0C713D2BCE709C00CBBBEC /* Build configuration list for PBXNativeTarget "firework" */;
+			buildPhases = (
+				EF0C71152BCE709A00CBBBEC /* Sources */,
+				EF0C71162BCE709A00CBBBEC /* Frameworks */,
+				EF0C71172BCE709A00CBBBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firework;
+			productName = firework;
+			productReference = EF0C71192BCE709A00CBBBEC /* firework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF0C71282BCE709C00CBBBEC /* fireworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0C71402BCE709C00CBBBEC /* Build configuration list for PBXNativeTarget "fireworkTests" */;
+			buildPhases = (
+				EF0C71252BCE709C00CBBBEC /* Sources */,
+				EF0C71262BCE709C00CBBBEC /* Frameworks */,
+				EF0C71272BCE709C00CBBBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0C712B2BCE709C00CBBBEC /* PBXTargetDependency */,
+			);
+			name = fireworkTests;
+			productName = fireworkTests;
+			productReference = EF0C71292BCE709C00CBBBEC /* fireworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF0C71322BCE709C00CBBBEC /* fireworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0C71432BCE709C00CBBBEC /* Build configuration list for PBXNativeTarget "fireworkUITests" */;
+			buildPhases = (
+				EF0C712F2BCE709C00CBBBEC /* Sources */,
+				EF0C71302BCE709C00CBBBEC /* Frameworks */,
+				EF0C71312BCE709C00CBBBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0C71352BCE709C00CBBBEC /* PBXTargetDependency */,
+			);
+			name = fireworkUITests;
+			productName = fireworkUITests;
+			productReference = EF0C71332BCE709C00CBBBEC /* fireworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0C71112BCE709A00CBBBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EF0C71182BCE709A00CBBBEC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EF0C71282BCE709C00CBBBEC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EF0C71182BCE709A00CBBBEC;
+					};
+					EF0C71322BCE709C00CBBBEC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EF0C71182BCE709A00CBBBEC;
+					};
+				};
+			};
+			buildConfigurationList = EF0C71142BCE709A00CBBBEC /* Build configuration list for PBXProject "firework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0C71102BCE709A00CBBBEC;
+			productRefGroup = EF0C711A2BCE709A00CBBBEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0C71182BCE709A00CBBBEC /* firework */,
+				EF0C71282BCE709C00CBBBEC /* fireworkTests */,
+				EF0C71322BCE709C00CBBBEC /* fireworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0C71172BCE709A00CBBBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0C71242BCE709C00CBBBEC /* Preview Assets.xcassets in Resources */,
+				EF0C71212BCE709C00CBBBEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C71272BCE709C00CBBBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C71312BCE709C00CBBBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0C71152BCE709A00CBBBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0C711F2BCE709B00CBBBEC /* ContentView.swift in Sources */,
+				EF0C714A2BCE72AF00CBBBEC /* Particle.swift in Sources */,
+				EF0C71482BCE729900CBBBEC /* Firework.swift in Sources */,
+				EF0C711D2BCE709B00CBBBEC /* fireworkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C71252BCE709C00CBBBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0C712E2BCE709C00CBBBEC /* fireworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C712F2BCE709C00CBBBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0C713A2BCE709C00CBBBEC /* fireworkUITestsLaunchTests.swift in Sources */,
+				EF0C71382BCE709C00CBBBEC /* fireworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF0C712B2BCE709C00CBBBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0C71182BCE709A00CBBBEC /* firework */;
+			targetProxy = EF0C712A2BCE709C00CBBBEC /* PBXContainerItemProxy */;
+		};
+		EF0C71352BCE709C00CBBBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0C71182BCE709A00CBBBEC /* firework */;
+			targetProxy = EF0C71342BCE709C00CBBBEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF0C713B2BCE709C00CBBBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF0C713C2BCE709C00CBBBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0C713E2BCE709C00CBBBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"firework/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solstice.firework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0C713F2BCE709C00CBBBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"firework/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solstice.firework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF0C71412BCE709C00CBBBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solstice.fireworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/firework";
+			};
+			name = Debug;
+		};
+		EF0C71422BCE709C00CBBBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solstice.fireworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/firework";
+			};
+			name = Release;
+		};
+		EF0C71442BCE709C00CBBBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solstice.fireworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firework;
+			};
+			name = Debug;
+		};
+		EF0C71452BCE709C00CBBBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solstice.fireworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0C71142BCE709A00CBBBEC /* Build configuration list for PBXProject "firework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0C713B2BCE709C00CBBBEC /* Debug */,
+				EF0C713C2BCE709C00CBBBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0C713D2BCE709C00CBBBEC /* Build configuration list for PBXNativeTarget "firework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0C713E2BCE709C00CBBBEC /* Debug */,
+				EF0C713F2BCE709C00CBBBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0C71402BCE709C00CBBBEC /* Build configuration list for PBXNativeTarget "fireworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0C71412BCE709C00CBBBEC /* Debug */,
+				EF0C71422BCE709C00CBBBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0C71432BCE709C00CBBBEC /* Build configuration list for PBXNativeTarget "fireworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0C71442BCE709C00CBBBEC /* Debug */,
+				EF0C71452BCE709C00CBBBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0C71112BCE709A00CBBBEC /* Project object */;
+}
